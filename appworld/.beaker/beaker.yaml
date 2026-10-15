@@ -9,7 +9,7 @@ config_defaults:
   max_concurrency: 10
 integrations:
   app_world:
-    agent_key: appworld-fresh
+    agent_key: appworld-code-agent
     entrypoint: beaker_integration:integration
     package_import_root: .beaker
     source_dir: appworld
